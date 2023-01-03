@@ -1,0 +1,204 @@
+* {margin: 0;padding: 0;}
+
+body{font-family: 'Montserrat', sans-serif;}
+
+#page {
+    min-height: 200px;
+    width: 60%;
+    min-width: 600px;
+    background: whitesmoke;
+    margin: 50px auto;
+    padding: 30px;
+    color: #44e3d3;
+}
+
+.photo-and-name {
+    /* NO STYLE NEEDED YET */
+}
+
+.photo {
+    border-radius: 0 0% 0% 10%;
+    width: 15%;
+    min-width: 140px;
+    float: left;
+    margin-right: 20px;
+}
+
+.contact-info-box {
+    width: 100%;
+    background-color: #ddd;
+    height: 189px;
+    border-radius: 0 0 0 10%
+}
+.contact-info-box h1{
+    color: #00aeb1;
+}
+.contact-info-box h3{
+    color: #00aeb1;
+}
+.contact-info-box p {
+    margin-top: 0;
+    margin-bottom: 0rem;
+}
+.contact-info-box p span{
+    color: #525252;
+    font-weight: 500;
+}
+
+.name {
+    margin-bottom: -5px;
+}
+.job-title {
+    display: inline-block;
+}
+
+.contact-details {
+    background: #27aae1;
+    color: white;
+    text-align: center;
+    margin: auto;
+    margin-top: 25px;
+    padding: 5px;
+    font-size: 15px;
+}
+
+
+#objective {
+    
+}
+
+#objective h3 {
+    border: 1px solid #d3d3d3;
+    border-left: 4px solid #44e3d3;
+    text-transform: uppercase;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 30px 0 10px;
+}
+
+#objective p {
+    padding: 0 5px 10px;
+    font-weight: 700;
+    line-height: 25px;
+    font-size: 17px;
+    color: #666262;
+}
+.skills{
+    background-color: #ddd;
+    height: 100px;
+}
+ .rating {
+            font-size: 10px;
+            color: #fff;
+            padding-left: 5px;
+            padding-top: 5px;
+            display: inline-flex;
+            align-items: center;
+        }
+.rating .box{
+    min-width: 185px;
+}
+.rating .box p {
+    float: left;
+    font-size: 20px;
+}
+
+.rating .box p span{
+    font-size: 10px;
+}
+  
+ .clicked {
+            color: #00aeb1;
+        }
+#education h3 {
+    border: 1px solid #d3d3d3;
+    border-left: 4px solid #44e3d3;
+    text-transform: uppercase;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 30px 0 10px;
+}
+ table{
+    background-color: #ddd;
+    width: auto;
+}
+#education table td {
+    padding: 5px;
+    font-size: 14px;
+    color: #00aeb1;
+    font-weight: 600;
+}
+#education table td b{
+    font-weight: 700;
+    line-height: 25px;
+    font-size: 15px;
+    color: #666262;
+}
+
+#education table tr.school-1 td:first-child {
+    width: 120px;
+    color: gray;
+    padding-bottom: 70px;
+}
+
+#education table tr.school-2 td:first-child {
+    padding-bottom: 70px;
+}
+#education table tr.school-3 td:first-child {
+    padding-bottom: 70px;
+}
+
+#work h3 {
+    border: 1px solid #d3d3d3;
+    border-left: 4px solid #44e3d3;
+    text-transform: uppercase;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 30px 0 10px;
+}
+#work table td b{
+    font-weight: 700;
+    line-height: 25px;
+    font-size: 15px;
+    color: #666262;
+}
+#work table td {
+    padding: 5px;
+    font-size: 14px;
+    color: #00aeb1;
+    font-weight: 600;
+}
+
+#work table tr.work-1 td:first-child {
+    width: 120px;
+    color: gray;
+    padding-bottom: 25px;
+}
+
+#work table tr.work-1 td {
+    padding-bottom: 25px;
+}
+
+#work table tr.work-2 td:first-child {
+    width: 120px;
+    color: gray;
+}
+#bio-data div{
+    background-color: #ddd;
+}
+#bio-data h3 {
+    border: 1px solid #d3d3d3;
+    border-left: 4px solid #44e3d3;
+    text-transform: uppercase;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 30px 0 10px;
+}
+
+#bio-data p {
+     font-weight: 500;
+    line-height: 25px;
+    font-size: 15px;
+    color: #666262;
+    padding-left: 5px;
+}
